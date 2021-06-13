@@ -7,4 +7,4 @@ FROM gitpod/workspace-mongodb
 # More information: https://www.gitpod.io/docs/config-docker/
 
 RUN pip install streamlit
-RUN pip install pymongo
+RUN pip3 install pymongo[srv]

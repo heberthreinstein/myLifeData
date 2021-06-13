@@ -18,4 +18,4 @@ with st.form("expense"):
     # Every form must have a submit button.
     submitted = st.form_submit_button("Submit")
     if submitted:
-       st.write(teste)
+       st.write(description)
